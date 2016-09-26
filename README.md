@@ -5,18 +5,21 @@ Thanks for PatterbLab team
 
 ## Installation
 
-1. Clone and install dependencies
+#### Clone and install dependencies
 ```
 git clone https://github.com/daitr92/patternlab-react
 
 cd patternlab-react
 npm install
 ```
-
-2. Install Plop for auto generating 
+#### Install Plop for auto generating 
 ```
 npm install plop -g
 ```
+
+## Documentation
+[Github Wiki](https://github.com/daitr92/patternlab-react/wiki)
+
 
 
 
