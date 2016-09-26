@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }}">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?{{ cacheBuster }}" media="all" />
+
+    <!-- Result CSS and JS -->
+    <link rel="stylesheet" href="../../css/custom.css" media="all"  />
+    <script src="../../js/gu-react.js"></script>
+
+    <script>
+      function renderToElements(toRender, elements) {
+        for (var i = 0; i < elements.length; i++) {
+          ReactDOM.render(toRender, elements[i]);
+        }
+      }
+    </script>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {{{ patternLabHead }}}
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="{{ bodyClass }}">
